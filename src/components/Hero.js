@@ -3,6 +3,7 @@ import styled from "styled-components";
 import image from "../assets/hero.png";
 import bg from "../assets/bg.png";
 import Tilty from "react-tilty";
+import HeroText from './HeroText';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
       <Wrapper>
         <InnerWrapper>
           <Left>
-            
+            <HeroText/>
           </Left>
           <TiltyWrapper options={{ max: 25 }}>
                 <img src={image} alt="@gouthamgtronics" />
